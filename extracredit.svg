@@ -1,0 +1,19 @@
+<svg width="500" height="500" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+<rect id="disk3" x="100.000000"  y="200.000000" width="50.000000" height="100.000000" fill="rgb(0.000000,0.000000,255.000000)"  >
+    <animateTransform attributeName= "transform" attributeType= "xml" type= "rotate"  dur="1980ms" from="0.000000 125.000000 250.000000" to="360.000000 125.000000 150.000000"/>
+    <animate attributeType= "xml" begin= "20ms" dur="1980ms" attributeName="y" from="200.000000" to="100.000000" fill="freeze" />
+    <animate attributeType= "xml" begin= "20ms" dur="1980ms" visibility="visible"  fill="freeze" />
+</rect>
+<rect id="disk4" x="400.000000"  y="200.000000" width="30.000000" height="60.000000" fill="rgb(0.000000,0.000000,255.000000)"  >
+    <animateTransform attributeName= "transform" attributeType= "xml" type= "rotate"  dur="3980ms" from="0.000000 415.000000 230.000000" to="720.000000 400.000000 230.000000"/>
+    <animate attributeType= "xml" begin= "20ms" dur="3980ms" attributeName="width" from="400.000000" to="100.000000" fill="freeze" />
+    <animate attributeType= "xml" begin= "20ms" dur="3980ms" attributeName="x" from="400.000000" to="100.000000" fill="freeze" />
+    <animate attributeType= "xml" attributeName="fill" begin="20ms" from="rgb(0,0,255)" to="rgb(0,255,0)" dur="3980ms" fill="freeze" />
+    <animate attributeType= "xml" begin= "20ms" dur="3980ms" visibility="visible"  fill="freeze" />
+</rect>
+<rect id="disk5" x="200.000000"  y="200.000000" width="50.000000" height="100.000000" fill="rgb(255.000000,0.000000,0.000000)"  >
+    <animateTransform attributeName= "transform" attributeType= "xml" type= "rotate"  dur="3980ms" from="0.000000 225.000000 250.000000" to="360.000000 225.000000 250.000000"/>
+    <animate attributeType= "xml" begin= "20ms" dur="3980ms" visibility="visible"  fill="freeze" />
+</rect>
+</svg>

@@ -1,0 +1,10 @@
+canvas 0 0 500 500
+shape disk1 rectangle 1
+shape disk2 rectangle 2
+shape background rectangle 0
+motion disk1 1 300 200 100 100 0 0 255  1 300 200 100 100 0 0 255
+motion disk1 1 300 200 100 100 0 0 255  200 200 200 100 100 0 255 0
+motion disk2 1 200 200 100 100 0 255 0  1 200 200 100 100 0 255 0
+motion disk2 1 200 200 100 100 0 255 0   200 300 200 100 100 0 255 0
+motion background 1 0 0 500 500 255 0 0  1 0 0 500 500 255 0 0
+motion background 1 0 0 500 500 255 0 0  200 0 0 500 500 0 255 0
